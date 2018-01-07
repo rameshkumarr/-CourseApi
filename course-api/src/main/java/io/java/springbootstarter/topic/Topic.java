@@ -1,6 +1,10 @@
 package io.java.springbootstarter.topic;
 
+
+
+@Entity
 public class Topic {
+	
 	private String id;
 	private String name;
 	private String description;
